@@ -8,20 +8,120 @@
 
 /* Begin PBXBuildFile section */
 		F5142CA21D7FF6840001FE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5142CA11D7FF6840001FE60 /* AppDelegate.swift */; };
-		F5142CA41D7FF6840001FE60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5142CA31D7FF6840001FE60 /* ViewController.swift */; };
 		F5142CA71D7FF6840001FE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5142CA51D7FF6840001FE60 /* Main.storyboard */; };
 		F5142CA91D7FF6840001FE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5142CA81D7FF6840001FE60 /* Assets.xcassets */; };
 		F5142CAC1D7FF6840001FE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5142CAA1D7FF6840001FE60 /* LaunchScreen.storyboard */; };
+		F5142CB41D7FF6D10001FE60 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5142CB31D7FF6D10001FE60 /* MasterTableVC.swift */; };
+		F563C0C01D81036D00F3C9E1 /* manchester-united.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0BF1D81036D00F3C9E1 /* manchester-united.png */; };
+		F563C0C61D8106F800F3C9E1 /* 1star.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0C11D8106F800F3C9E1 /* 1star.png */; };
+		F563C0C71D8106F800F3C9E1 /* 2star.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0C21D8106F800F3C9E1 /* 2star.png */; };
+		F563C0C81D8106F800F3C9E1 /* 3star.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0C31D8106F800F3C9E1 /* 3star.png */; };
+		F563C0C91D8106F800F3C9E1 /* 4star.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0C41D8106F800F3C9E1 /* 4star.png */; };
+		F563C0CA1D8106F800F3C9E1 /* 5star.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0C51D8106F800F3C9E1 /* 5star.png */; };
+		F563C0CC1D810C1300F3C9E1 /* premier-league.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C0CB1D810C1300F3C9E1 /* premier-league.jpg */; };
+		F563C0D21D810ED500F3C9E1 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F563C0D11D810ED500F3C9E1 /* DataItem.swift */; };
+		F563C0E71D81118B00F3C9E1 /* arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D41D81118B00F3C9E1 /* arsenal.png */; };
+		F563C0E81D81118B00F3C9E1 /* aston-villa.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D51D81118B00F3C9E1 /* aston-villa.png */; };
+		F563C0E91D81118B00F3C9E1 /* bournemouth.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D61D81118B00F3C9E1 /* bournemouth.png */; };
+		F563C0EA1D81118B00F3C9E1 /* chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D71D81118B00F3C9E1 /* chelsea.png */; };
+		F563C0EB1D81118B00F3C9E1 /* crystal-palace.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D81D81118B00F3C9E1 /* crystal-palace.png */; };
+		F563C0EC1D81118B00F3C9E1 /* everton.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0D91D81118B00F3C9E1 /* everton.png */; };
+		F563C0ED1D81118B00F3C9E1 /* leicester-city.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DA1D81118B00F3C9E1 /* leicester-city.png */; };
+		F563C0EE1D81118B00F3C9E1 /* liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DB1D81118B00F3C9E1 /* liverpool.png */; };
+		F563C0EF1D81118B00F3C9E1 /* manchester-city.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DC1D81118B00F3C9E1 /* manchester-city.png */; };
+		F563C0F01D81118B00F3C9E1 /* newcastle-united.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DD1D81118B00F3C9E1 /* newcastle-united.png */; };
+		F563C0F11D81118B00F3C9E1 /* norwich-city.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DE1D81118B00F3C9E1 /* norwich-city.png */; };
+		F563C0F21D81118B00F3C9E1 /* southampton.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0DF1D81118B00F3C9E1 /* southampton.png */; };
+		F563C0F31D81118B00F3C9E1 /* stoke-city.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E01D81118B00F3C9E1 /* stoke-city.png */; };
+		F563C0F41D81118B00F3C9E1 /* sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E11D81118B00F3C9E1 /* sunderland.png */; };
+		F563C0F51D81118B00F3C9E1 /* swansea-city.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E21D81118B00F3C9E1 /* swansea-city.png */; };
+		F563C0F61D81118B00F3C9E1 /* tottenham-hotspur.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E31D81118B00F3C9E1 /* tottenham-hotspur.png */; };
+		F563C0F71D81118B00F3C9E1 /* watford.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E41D81118B00F3C9E1 /* watford.png */; };
+		F563C0F81D81118B00F3C9E1 /* west-bromwich.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E51D81118B00F3C9E1 /* west-bromwich.png */; };
+		F563C0F91D81118B00F3C9E1 /* west-ham.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C0E61D81118B00F3C9E1 /* west-ham.png */; };
+		F563C10F1D81158C00F3C9E1 /* Anfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C0FB1D81158C00F3C9E1 /* Anfield.jpg */; };
+		F563C1111D81158C00F3C9E1 /* Carrow Road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C0FD1D81158C00F3C9E1 /* Carrow Road.jpg */; };
+		F563C1121D81158C00F3C9E1 /* Dean Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C0FE1D81158C00F3C9E1 /* Dean Court.jpg */; };
+		F563C1131D81158C00F3C9E1 /* Emirates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C0FF1D81158C00F3C9E1 /* Emirates.jpg */; };
+		F563C1161D81158C00F3C9E1 /* Goodison Park.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F563C1021D81158C00F3C9E1 /* Goodison Park.JPG */; };
+		F563C1181D81158C00F3C9E1 /* Old Trafford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1041D81158C00F3C9E1 /* Old Trafford.jpg */; };
+		F563C11A1D81158C00F3C9E1 /* Selhurst Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1061D81158C00F3C9E1 /* Selhurst Park.jpg */; };
+		F563C11B1D81158C00F3C9E1 /* St Mary's Stadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1071D81158C00F3C9E1 /* St Mary's Stadium.jpg */; };
+		F563C11C1D81158C00F3C9E1 /* St. James' Park.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F563C1081D81158C00F3C9E1 /* St. James' Park.JPG */; };
+		F563C11D1D81158C00F3C9E1 /* Stamford Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1091D81158C00F3C9E1 /* Stamford Bridge.jpg */; };
+		F563C11E1D81158C00F3C9E1 /* The Hawthorns.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F563C10A1D81158C00F3C9E1 /* The Hawthorns.JPG */; };
+		F563C11F1D81158C00F3C9E1 /* Upton Park.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F563C10B1D81158C00F3C9E1 /* Upton Park.JPG */; };
+		F563C1201D81158C00F3C9E1 /* Vicarage Road.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C10C1D81158C00F3C9E1 /* Vicarage Road.jpg */; };
+		F563C1211D81158C00F3C9E1 /* Villa Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C10D1D81158C00F3C9E1 /* Villa Park.jpg */; };
+		F563C1221D81158C00F3C9E1 /* White Hart Lane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C10E1D81158C00F3C9E1 /* White Hart Lane.jpg */; };
+		F563C1261D81198100F3C9E1 /* Stadium of Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1251D81198100F3C9E1 /* Stadium of Light.jpg */; };
+		F563C1281D8125F900F3C9E1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F563C1271D8125F900F3C9E1 /* DetailVC.swift */; };
+		F563C12A1D81292500F3C9E1 /* Britannia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C1291D81292500F3C9E1 /* Britannia.jpg */; };
+		F563C12C1D81353600F3C9E1 /* King Power.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C12B1D81353600F3C9E1 /* King Power.jpg */; };
+		F563C12E1D8135D800F3C9E1 /* Etihad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C12D1D8135D800F3C9E1 /* Etihad.jpg */; };
+		F563C1301D81360300F3C9E1 /* Liberty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563C12F1D81360300F3C9E1 /* Liberty.jpg */; };
+		F58B04871D814DBB001F8C8F /* CustomTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58B04851D814DBB001F8C8F /* CustomTVCell.xib */; };
+		F5FBA3771D82B7C800A060CF /* CustomTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FBA3761D82B7C800A060CF /* CustomTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5142C9E1D7FF6840001FE60 /* CustomTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5142CA11D7FF6840001FE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5142CA31D7FF6840001FE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5142CA61D7FF6840001FE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5142CA81D7FF6840001FE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5142CAB1D7FF6840001FE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5142CAD1D7FF6840001FE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5142CB31D7FF6D10001FE60 /* MasterTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		F563C0BF1D81036D00F3C9E1 /* manchester-united.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manchester-united.png"; sourceTree = "<group>"; };
+		F563C0C11D8106F800F3C9E1 /* 1star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1star.png; sourceTree = "<group>"; };
+		F563C0C21D8106F800F3C9E1 /* 2star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2star.png; sourceTree = "<group>"; };
+		F563C0C31D8106F800F3C9E1 /* 3star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3star.png; sourceTree = "<group>"; };
+		F563C0C41D8106F800F3C9E1 /* 4star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4star.png; sourceTree = "<group>"; };
+		F563C0C51D8106F800F3C9E1 /* 5star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5star.png; sourceTree = "<group>"; };
+		F563C0CB1D810C1300F3C9E1 /* premier-league.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "premier-league.jpg"; sourceTree = "<group>"; };
+		F563C0D11D810ED500F3C9E1 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		F563C0D41D81118B00F3C9E1 /* arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arsenal.png; sourceTree = "<group>"; };
+		F563C0D51D81118B00F3C9E1 /* aston-villa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aston-villa.png"; sourceTree = "<group>"; };
+		F563C0D61D81118B00F3C9E1 /* bournemouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bournemouth.png; sourceTree = "<group>"; };
+		F563C0D71D81118B00F3C9E1 /* chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chelsea.png; sourceTree = "<group>"; };
+		F563C0D81D81118B00F3C9E1 /* crystal-palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crystal-palace.png"; sourceTree = "<group>"; };
+		F563C0D91D81118B00F3C9E1 /* everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = everton.png; sourceTree = "<group>"; };
+		F563C0DA1D81118B00F3C9E1 /* leicester-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leicester-city.png"; sourceTree = "<group>"; };
+		F563C0DB1D81118B00F3C9E1 /* liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liverpool.png; sourceTree = "<group>"; };
+		F563C0DC1D81118B00F3C9E1 /* manchester-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manchester-city.png"; sourceTree = "<group>"; };
+		F563C0DD1D81118B00F3C9E1 /* newcastle-united.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newcastle-united.png"; sourceTree = "<group>"; };
+		F563C0DE1D81118B00F3C9E1 /* norwich-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "norwich-city.png"; sourceTree = "<group>"; };
+		F563C0DF1D81118B00F3C9E1 /* southampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southampton.png; sourceTree = "<group>"; };
+		F563C0E01D81118B00F3C9E1 /* stoke-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoke-city.png"; sourceTree = "<group>"; };
+		F563C0E11D81118B00F3C9E1 /* sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunderland.png; sourceTree = "<group>"; };
+		F563C0E21D81118B00F3C9E1 /* swansea-city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swansea-city.png"; sourceTree = "<group>"; };
+		F563C0E31D81118B00F3C9E1 /* tottenham-hotspur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tottenham-hotspur.png"; sourceTree = "<group>"; };
+		F563C0E41D81118B00F3C9E1 /* watford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watford.png; sourceTree = "<group>"; };
+		F563C0E51D81118B00F3C9E1 /* west-bromwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "west-bromwich.png"; sourceTree = "<group>"; };
+		F563C0E61D81118B00F3C9E1 /* west-ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "west-ham.png"; sourceTree = "<group>"; };
+		F563C0FB1D81158C00F3C9E1 /* Anfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Anfield.jpg; sourceTree = "<group>"; };
+		F563C0FD1D81158C00F3C9E1 /* Carrow Road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carrow Road.jpg"; sourceTree = "<group>"; };
+		F563C0FE1D81158C00F3C9E1 /* Dean Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dean Court.jpg"; sourceTree = "<group>"; };
+		F563C0FF1D81158C00F3C9E1 /* Emirates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emirates.jpg; sourceTree = "<group>"; };
+		F563C1021D81158C00F3C9E1 /* Goodison Park.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Goodison Park.JPG"; sourceTree = "<group>"; };
+		F563C1041D81158C00F3C9E1 /* Old Trafford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Trafford.jpg"; sourceTree = "<group>"; };
+		F563C1061D81158C00F3C9E1 /* Selhurst Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Selhurst Park.jpg"; sourceTree = "<group>"; };
+		F563C1071D81158C00F3C9E1 /* St Mary's Stadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St Mary's Stadium.jpg"; sourceTree = "<group>"; };
+		F563C1081D81158C00F3C9E1 /* St. James' Park.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. James' Park.JPG"; sourceTree = "<group>"; };
+		F563C1091D81158C00F3C9E1 /* Stamford Bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stamford Bridge.jpg"; sourceTree = "<group>"; };
+		F563C10A1D81158C00F3C9E1 /* The Hawthorns.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Hawthorns.JPG"; sourceTree = "<group>"; };
+		F563C10B1D81158C00F3C9E1 /* Upton Park.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Upton Park.JPG"; sourceTree = "<group>"; };
+		F563C10C1D81158C00F3C9E1 /* Vicarage Road.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vicarage Road.jpg"; sourceTree = "<group>"; };
+		F563C10D1D81158C00F3C9E1 /* Villa Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Villa Park.jpg"; sourceTree = "<group>"; };
+		F563C10E1D81158C00F3C9E1 /* White Hart Lane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White Hart Lane.jpg"; sourceTree = "<group>"; };
+		F563C1251D81198100F3C9E1 /* Stadium of Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stadium of Light.jpg"; sourceTree = "<group>"; };
+		F563C1271D8125F900F3C9E1 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F563C1291D81292500F3C9E1 /* Britannia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Britannia.jpg; sourceTree = "<group>"; };
+		F563C12B1D81353600F3C9E1 /* King Power.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "King Power.jpg"; sourceTree = "<group>"; };
+		F563C12D1D8135D800F3C9E1 /* Etihad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Etihad.jpg; sourceTree = "<group>"; };
+		F563C12F1D81360300F3C9E1 /* Liberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liberty.jpg; sourceTree = "<group>"; };
+		F58B04851D814DBB001F8C8F /* CustomTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTVCell.xib; sourceTree = "<group>"; };
+		F5FBA3761D82B7C800A060CF /* CustomTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +154,88 @@
 		F5142CA01D7FF6840001FE60 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				F563C0BC1D81028500F3C9E1 /* Images */,
 				F5142CA11D7FF6840001FE60 /* AppDelegate.swift */,
-				F5142CA31D7FF6840001FE60 /* ViewController.swift */,
+				F5142CB31D7FF6D10001FE60 /* MasterTableVC.swift */,
+				F563C0D11D810ED500F3C9E1 /* DataItem.swift */,
+				F563C1271D8125F900F3C9E1 /* DetailVC.swift */,
 				F5142CA51D7FF6840001FE60 /* Main.storyboard */,
 				F5142CA81D7FF6840001FE60 /* Assets.xcassets */,
 				F5142CAA1D7FF6840001FE60 /* LaunchScreen.storyboard */,
 				F5142CAD1D7FF6840001FE60 /* Info.plist */,
+				F5FBA3761D82B7C800A060CF /* CustomTVCell.swift */,
+				F58B04851D814DBB001F8C8F /* CustomTVCell.xib */,
 			);
 			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		F563C0BC1D81028500F3C9E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F563C0FA1D81157F00F3C9E1 /* Stadium */,
+				F563C0D31D81116700F3C9E1 /* Logo Club */,
+				F563C0CB1D810C1300F3C9E1 /* premier-league.jpg */,
+				F563C0C11D8106F800F3C9E1 /* 1star.png */,
+				F563C0C21D8106F800F3C9E1 /* 2star.png */,
+				F563C0C31D8106F800F3C9E1 /* 3star.png */,
+				F563C0C41D8106F800F3C9E1 /* 4star.png */,
+				F563C0C51D8106F800F3C9E1 /* 5star.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F563C0D31D81116700F3C9E1 /* Logo Club */ = {
+			isa = PBXGroup;
+			children = (
+				F563C0D41D81118B00F3C9E1 /* arsenal.png */,
+				F563C0D51D81118B00F3C9E1 /* aston-villa.png */,
+				F563C0D61D81118B00F3C9E1 /* bournemouth.png */,
+				F563C0D71D81118B00F3C9E1 /* chelsea.png */,
+				F563C0D81D81118B00F3C9E1 /* crystal-palace.png */,
+				F563C0D91D81118B00F3C9E1 /* everton.png */,
+				F563C0DA1D81118B00F3C9E1 /* leicester-city.png */,
+				F563C0DB1D81118B00F3C9E1 /* liverpool.png */,
+				F563C0DC1D81118B00F3C9E1 /* manchester-city.png */,
+				F563C0DD1D81118B00F3C9E1 /* newcastle-united.png */,
+				F563C0DE1D81118B00F3C9E1 /* norwich-city.png */,
+				F563C0DF1D81118B00F3C9E1 /* southampton.png */,
+				F563C0E01D81118B00F3C9E1 /* stoke-city.png */,
+				F563C0E11D81118B00F3C9E1 /* sunderland.png */,
+				F563C0E21D81118B00F3C9E1 /* swansea-city.png */,
+				F563C0E31D81118B00F3C9E1 /* tottenham-hotspur.png */,
+				F563C0E41D81118B00F3C9E1 /* watford.png */,
+				F563C0E51D81118B00F3C9E1 /* west-bromwich.png */,
+				F563C0E61D81118B00F3C9E1 /* west-ham.png */,
+				F563C0BF1D81036D00F3C9E1 /* manchester-united.png */,
+			);
+			name = "Logo Club";
+			sourceTree = "<group>";
+		};
+		F563C0FA1D81157F00F3C9E1 /* Stadium */ = {
+			isa = PBXGroup;
+			children = (
+				F563C0FB1D81158C00F3C9E1 /* Anfield.jpg */,
+				F563C0FD1D81158C00F3C9E1 /* Carrow Road.jpg */,
+				F563C1291D81292500F3C9E1 /* Britannia.jpg */,
+				F563C0FE1D81158C00F3C9E1 /* Dean Court.jpg */,
+				F563C0FF1D81158C00F3C9E1 /* Emirates.jpg */,
+				F563C12D1D8135D800F3C9E1 /* Etihad.jpg */,
+				F563C12B1D81353600F3C9E1 /* King Power.jpg */,
+				F563C1021D81158C00F3C9E1 /* Goodison Park.JPG */,
+				F563C12F1D81360300F3C9E1 /* Liberty.jpg */,
+				F563C1041D81158C00F3C9E1 /* Old Trafford.jpg */,
+				F563C1061D81158C00F3C9E1 /* Selhurst Park.jpg */,
+				F563C1071D81158C00F3C9E1 /* St Mary's Stadium.jpg */,
+				F563C1081D81158C00F3C9E1 /* St. James' Park.JPG */,
+				F563C1251D81198100F3C9E1 /* Stadium of Light.jpg */,
+				F563C1091D81158C00F3C9E1 /* Stamford Bridge.jpg */,
+				F563C10A1D81158C00F3C9E1 /* The Hawthorns.JPG */,
+				F563C10B1D81158C00F3C9E1 /* Upton Park.JPG */,
+				F563C10C1D81158C00F3C9E1 /* Vicarage Road.jpg */,
+				F563C10D1D81158C00F3C9E1 /* Villa Park.jpg */,
+				F563C10E1D81158C00F3C9E1 /* White Hart Lane.jpg */,
+			);
+			name = Stadium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +296,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F563C0C01D81036D00F3C9E1 /* manchester-united.png in Resources */,
+				F563C0F41D81118B00F3C9E1 /* sunderland.png in Resources */,
+				F563C0EC1D81118B00F3C9E1 /* everton.png in Resources */,
+				F563C0F81D81118B00F3C9E1 /* west-bromwich.png in Resources */,
+				F563C0E71D81118B00F3C9E1 /* arsenal.png in Resources */,
+				F563C1301D81360300F3C9E1 /* Liberty.jpg in Resources */,
+				F563C0F11D81118B00F3C9E1 /* norwich-city.png in Resources */,
+				F563C0F31D81118B00F3C9E1 /* stoke-city.png in Resources */,
+				F563C11C1D81158C00F3C9E1 /* St. James' Park.JPG in Resources */,
+				F563C0C81D8106F800F3C9E1 /* 3star.png in Resources */,
+				F563C1201D81158C00F3C9E1 /* Vicarage Road.jpg in Resources */,
+				F563C0F91D81118B00F3C9E1 /* west-ham.png in Resources */,
+				F563C0CA1D8106F800F3C9E1 /* 5star.png in Resources */,
+				F563C11B1D81158C00F3C9E1 /* St Mary's Stadium.jpg in Resources */,
+				F563C1161D81158C00F3C9E1 /* Goodison Park.JPG in Resources */,
+				F563C0C91D8106F800F3C9E1 /* 4star.png in Resources */,
+				F563C0EB1D81118B00F3C9E1 /* crystal-palace.png in Resources */,
+				F563C0E91D81118B00F3C9E1 /* bournemouth.png in Resources */,
+				F563C10F1D81158C00F3C9E1 /* Anfield.jpg in Resources */,
+				F563C11E1D81158C00F3C9E1 /* The Hawthorns.JPG in Resources */,
+				F563C0EE1D81118B00F3C9E1 /* liverpool.png in Resources */,
+				F563C0C61D8106F800F3C9E1 /* 1star.png in Resources */,
+				F563C12C1D81353600F3C9E1 /* King Power.jpg in Resources */,
+				F563C0F71D81118B00F3C9E1 /* watford.png in Resources */,
+				F563C0C71D8106F800F3C9E1 /* 2star.png in Resources */,
+				F563C1111D81158C00F3C9E1 /* Carrow Road.jpg in Resources */,
+				F58B04871D814DBB001F8C8F /* CustomTVCell.xib in Resources */,
+				F563C11D1D81158C00F3C9E1 /* Stamford Bridge.jpg in Resources */,
+				F563C11F1D81158C00F3C9E1 /* Upton Park.JPG in Resources */,
+				F563C12A1D81292500F3C9E1 /* Britannia.jpg in Resources */,
+				F563C11A1D81158C00F3C9E1 /* Selhurst Park.jpg in Resources */,
 				F5142CAC1D7FF6840001FE60 /* LaunchScreen.storyboard in Resources */,
+				F563C0EF1D81118B00F3C9E1 /* manchester-city.png in Resources */,
+				F563C0EA1D81118B00F3C9E1 /* chelsea.png in Resources */,
+				F563C1121D81158C00F3C9E1 /* Dean Court.jpg in Resources */,
+				F563C1261D81198100F3C9E1 /* Stadium of Light.jpg in Resources */,
+				F563C1211D81158C00F3C9E1 /* Villa Park.jpg in Resources */,
+				F563C0F51D81118B00F3C9E1 /* swansea-city.png in Resources */,
+				F563C1131D81158C00F3C9E1 /* Emirates.jpg in Resources */,
+				F563C0E81D81118B00F3C9E1 /* aston-villa.png in Resources */,
+				F563C1181D81158C00F3C9E1 /* Old Trafford.jpg in Resources */,
+				F563C0F21D81118B00F3C9E1 /* southampton.png in Resources */,
+				F563C0F01D81118B00F3C9E1 /* newcastle-united.png in Resources */,
+				F563C12E1D8135D800F3C9E1 /* Etihad.jpg in Resources */,
+				F563C0ED1D81118B00F3C9E1 /* leicester-city.png in Resources */,
+				F563C0F61D81118B00F3C9E1 /* tottenham-hotspur.png in Resources */,
+				F563C1221D81158C00F3C9E1 /* White Hart Lane.jpg in Resources */,
+				F563C0CC1D810C1300F3C9E1 /* premier-league.jpg in Resources */,
 				F5142CA91D7FF6840001FE60 /* Assets.xcassets in Resources */,
 				F5142CA71D7FF6840001FE60 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +356,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5142CA41D7FF6840001FE60 /* ViewController.swift in Sources */,
+				F5FBA3771D82B7C800A060CF /* CustomTVCell.swift in Sources */,
+				F563C1281D8125F900F3C9E1 /* DetailVC.swift in Sources */,
 				F5142CA21D7FF6840001FE60 /* AppDelegate.swift in Sources */,
+				F563C0D21D810ED500F3C9E1 /* DataItem.swift in Sources */,
+				F5142CB41D7FF6D10001FE60 /* MasterTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +512,7 @@
 				F5142CB21D7FF6840001FE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
